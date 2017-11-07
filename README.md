@@ -31,4 +31,4 @@ $ g++ -o Mincov Mincov.h Mincov.cpp Main.cpp
 $ ./Mincov [input file]
 ```
 
-There are 6 sample input files in input directory.
+There are 6 sample input files in *input* directory.
