@@ -20,9 +20,21 @@ The cost of **S'** is the total costs of the sensors in **S'**.
 The objective is to compute a cover **S'** of minimum cost.
 Please develop a polynomial time algorithm and write a program to implement it.
 
+![prob-desc](https://github.com/wiany11/dp-mincov/blob/master/img/01.JPG)
+
+In the picture above, for example, target (green dots) can be covered by both sets {1, 2, 3, 4} and {1, 3, 4}. Then the algorithm should take the set {1, 3, 4} because it obviously costs less. (Cost of sensors are given in parentheses.)
+
 ### My Solution
 
+I designed a table like the below:
 
+![sol-01](https://github.com/wiany11/dp-mincov/blob/master/img/02.JPG)
+
+Rows represent targets ordered by x-coordinates and columns represent sensors also ordered by x-coordinates. More information about how to fill the table is described in the pdf file. After filling the table, covers (sensor sets which can monitor all targets) can be found like the following:
+
+![sol-02](https://github.com/wiany11/dp-mincov/blob/master/img/02-2.JPG)![sol-03](https://github.com/wiany11/dp-mincov/blob/master/img/02-3.JPG)
+
+Unless there are exponentially many covers the algorithm takes polynomial time. So it takes exactly polnomial time to find only one cover.
 
 ### Implementation
 
