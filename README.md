@@ -22,3 +22,13 @@ Please develop a polynomial time algorithm and write a program to implement it.
 
 ### My Solution
 
+
+
+### Implementation
+
+```
+$ g++ -o Mincov Mincov.h Mincov.cpp Main.cpp
+$ ./Mincov [input file]
+```
+
+There are 6 sample input files in *input* directory.
