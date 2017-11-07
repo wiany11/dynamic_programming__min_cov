@@ -1,5 +1,5 @@
 # dp-mincov
-Dynamic Programming to Compute a Cover of Minimum Cost
+Dynamic Programming: Computing a Cover of Minimum Cost
 
 ### Introduction
 
