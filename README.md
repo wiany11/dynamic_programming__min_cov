@@ -3,9 +3,9 @@ Dynamic Programming: Computing a Cover of Minimum Cost
 
 ### Introduction
 
-This was a school project of the course Introduction Algorithms. I implemented a dynamic programming algorithm to find at lease one sensor set that covers all targets with the minimum cost in polynomial time. More detailed problem description is right below.
+This was a school project of the course Introduction Algorithms. I implemented a dynamic programming algorithm to find at least one sensor sets that cover all targets with the minimum cost in polynomial time. More detailed problem description is right below.
 
-I did my best and was satisfied with my work. So I want to share it!
+I did my best and was satisfied with the result. So I want to share it!
 
 ### Problem Description
 
